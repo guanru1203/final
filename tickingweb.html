@@ -1,0 +1,127 @@
+<!doctype html>
+
+<html>
+	
+<head>	
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width，initial-scale=1">
+
+<title>tickingweb</title>
+<link href="https://tauhu.tw/tauhu-oo.css" rel="stylesheet">
+</head>
+	
+<body>
+<div class="container">
+	<nav>
+		<ul class="flex-nav">
+	<li><a href="information.html" target="_blank">information</a></li>
+	<li><a href="content.html" target="_blank">content</a></li>
+	<li><a href="team.html" target="_blank">team</a></li>
+	<ul class="dropdown-menu" aria-labelledby="navbarDropdown"><a href="traffic.html" target="_blank">traffic</a>
+		<li><a href="MRT.html" target="_blank">MRT</a></li>
+		<li><a href="BUS.html" target="_blank">bus</a></li>
+		
+		
+			</ul>
+	<li><a href="tickingweb.html">tickingweb</a></li>
+		</ul>
+	</nav></div>
+</div>
+</div>
+	
+
+    <center><font color="#FFFFFF"><h1>購票網</h1></font></center>
+   <table width="100%">
+      <tr> 
+        <td width="20%" height="350px" bgcolor="#FFFFFF" align="center"> <a href="https://tickets.udnfunlife.com/application/UTK02/UTK0201_.aspx?PRODUCT_ID=N15QGJDY&kdid=A01" target="_blank"><img src="udn售票網.png" width="70%" height="70px" ></a></td>
+         <td width="20%" height="350px" bgcolor="#FFFFFF" align="center"><a href="https://www.famiport.com.tw/Web_Famiport/Page/index.aspx" target="_blank"><img src="Famiport.png" width="70%" height="70px"></a></td>
+         <td width="20%" height="350px" bgcolor="#FFFFFF" align="center"><a href="https://ticket.ibon.com.tw/" target="_blank"><img src="ibon.png" width="70%" height="70px"></a></td>
+          <td width="20%" height="350px" bgcolor="#FFFFFF" align="center"><a href="https://tickets.books.com.tw/index/" target="_blank"><img src="博客來售票.png" width="70%" height="70px"></a></td>
+      </tr> 
+   </table>
+
+<font color="#FFFFFF"> 其他網站:GOMAJI、KLOOK、KKDAY....</font>
+<br></body>
+<br></body>
+<br></body>
+<br></body>
+
+
+<div class="form">
+<form action="php_post.php" method="post" > 
+ <center><font color="#FFFFFF"><h1>意見表單</h1></font>
+<font color="#FFFFFF">
+	<section>
+    <h2>意見與回饋</h2>
+    <p>
+      <label for="滿意度">
+        <span>滿意度</span>
+      </label>
+      <select id="card" name="usercard">
+        <option value="滿意">滿意</option>
+        <option value="中等">中等</option>
+        <option value="不滿意">不滿意</option>
+      </select>
+    </p>
+    <p>
+      <label for="number">
+        <span>年齡層</span>
+      <select id="card" name="usercard">
+        <option value="18以下">18以下</option>
+        <option value="18~35">18~35</option>
+        <option value="35以上">35以上</option>
+      </select>
+    <p>
+      <label for="date">
+        <span>其他</span>
+        <strong><abbr title="required"></abbr></strong>
+        <em></em>
+      </label>
+      <input type="text" id="" name="">
+    
+    <input type="submit" name="" value="確定"></p>
+</section>
+	</font></center></form></div>
+</body>
+	<style>
+	
+	nav a {
+    color:#FFFFFF;
+    text-decoration: none;  /* 移除超連結底線 */
+	font-size: 1.2rem;
+    }
+	nav > ul {
+    list-style: none;   /* 移除項目符號 */
+    list-style: none;   /* 移除項目符號 */
+    margin-bottom:10px;
+    padding: 0;
+	}
+	nav a:hover {
+    color:#808080;
+	display: block; /* 讓 <a> 填滿 <li> */
+		padding: 0px;
+}
+	.flex-nav {
+    display: flex;
+		justify-content: space-evenly;
+}
+	nav ul ul li{display: none;
+	             float:center;
+	             position:relative;
+	             margine:2px;
+	             padding:2px;}
+	nav ul ul:hover li{display:block;
+		
+	}
+	nav ul ul li{border-bottom: 1px solid #DDD;
+	            }
+
+		
+		body{background-color: #000000;
+		font-family: tauhu-oo,PingFangTC-Regular, "Microsoft JhengHei" ,sans-serif;}
+
+        .form{background-color: #808040;
+              width: 1900px;
+              height: 300px;}
+	</style>
+</html>
